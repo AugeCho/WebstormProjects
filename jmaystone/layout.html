@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <!--PG크로스브라우징필수내용 시작-->
+    <meta http-equiv="Cache-Control" content="no-cache"/>
+    <meta http-equiv="Expires" content="0"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <!--PG크로스브라우징필수내용 끝-->
+
+    <title>♥ 가영구 디자인</title>
+    <!--@css(/layout/basic/css/common.css)--><!--해당 CSS는 쇼핑몰 전체 페이지에 영향을 줍니다. 삭제와 수정에 주의해주세요.-->
+    <!--@css(/layout/basic/css/layout.css)-->
+    <!-- 스마트디자인에서는 최신 JQuery가 내장되어있습니다. 추가로 호출하면 충돌이 생길 수 있습니다. -->
+    <!--@js(/layout/basic/js/basic.js)-->
+    <!--@js(/js/common.js)-->
+    <script type="text/javascript" src="/ec-js/common.js"></script><!-- 해당 JS는 플래시를 사용하기 위한 스크립트입니다. -->
+</head>
+<body>
+
+
+
+
+
+
+<div id="topline">
+    <div id="top">
+        <div id="top-left">
+            <div id="log">
+                <div module="Layout_statelogoff">
+                    <img src="/web/upload/ga09/login.png" border="0" usemap="#login"><map name="login">
+                    <area shape="rect" coords="4, 8, 45, 27" href="/member/login.html" onfocus='this.blur()'>
+                    <area shape="rect" coords="51, 8, 87, 27" href="/member/join.html" onfocus='this.blur()'>
+                    <area shape="rect" coords="90, 7, 130, 27" href="/order/basket.html" onfocus='this.blur()'>
+                    <area shape="rect" coords="134, 6, 181, 27" href="/myshop/order/list.html" onfocus='this.blur()'>
+                    <area shape="rect" coords="184, 6, 248, 25" href="/myshop/index.html" onfocus='this.blur()'>
+                    <area shape="rect" coords="251, 6, 308, 27" onclick="gogoNew(0)" href="#" onfocus='this.blur()'>
+                    <area shape="rect" coords="316, 7, 391, 28" href="javascript:myFavorite()" onfocus='this.blur()'>
+                </map>
+                </div>
+                <div module="Layout_stateLogon">
+                    <img src="/web/upload/ga09/logout.png" border="0" usemap="#login2"><map name="login2">
+                    <area shape="rect" coords="4, 8, 57, 27" href="{$action_logout}" onfocus='this.blur()'>
+                    <area shape="rect" coords="65, 6, 121, 26" href="/member/modify.html" onfocus='this.blur()'>
+                    <area shape="rect" coords="126, 6, 166, 26" href="/order/basket.html" onfocus='this.blur()'>
+                    <area shape="rect" coords="171, 6, 218, 27" href="/myshop/order/list.html" onfocus='this.blur()'>
+                    <area shape="rect" coords="219, 5, 283, 24" href="/myshop/index.html" onfocus='this.blur()'>
+                    <area shape="rect" coords="291, 6, 348, 27" href="#" onclick="gogoNew(0)" onfocus='this.blur()'>
+                    <area shape="rect" coords="355, 7, 430, 28" href="javascript:myFavorite()" onfocus='this.blur()'>
+                </map>
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+
+        <div id="top-right">
+            <div id="favorite">
+                <div module="Layout_SearchHeader">
+                    <!--@css(/css/module/layout/searchHeader.css)-->
+                    <!--
+                    $product_page=/product/detail.html
+                    $category_page=/product/list.html
+                    -->
+                    <fieldset>
+                        <legend>검색</legend>{$form.keyword}<img src="/web/upload/ga09/search.png" alt="검색" onclick="{$action_search_submit}" /></fieldset>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div id="logo">
+            <h1 module="Layout_LogoTop"><!--@css(/css/module/layout/logotop.css)--><a href="/index.html"><img src="/web/upload/ga09/logo.png" border=0 isModify="1"></a></h1>
+        </div>
+
+
+
+    </div>
+
+
+
+
+</div>
+
+
+<div id="menu">
+    <div module="Layout_category">
+        <!--@js(/js/module/layout/category.js)-->
+        <span class="pst1"><a href="/product/list.html{$param}">{$img_tag}</a></span><span class="pst2"><a href="/product/list.html{$param}">{$img_tag}</a></span>        <a href="/board/free/list.html?board_no=1"><img src="/web/upload/ga09/bbs/1.gif" border=0 name="bbslist" onmouseover="document.bbslist.src='/web/upload/ga09/bbs/1a.gif'" onmouseout="document.bbslist.src='/web/upload/ga09/bbs/1.gif'"></a><a href="/board/product/list.html?board_no=6"><img src="/web/upload/ga09/bbs/2.gif" border=0 name="bbslist2" onmouseover="document.bbslist2.src='/web/upload/ga09/bbs/2a.gif'" onmouseout="document.bbslist2.src='/web/upload/ga09/bbs/2.gif'"></a><a href="/board/product/list.html?board_no=4"><img src="/web/upload/ga09/bbs/3.gif" border=0 name="bbslist3" onmouseover="document.bbslist3.src='/web/upload/ga09/bbs/3a.gif'" onmouseout="document.bbslist3.src='/web/upload/ga09/bbs/3.gif'"></a>
+    </div>
+</div>
+
+
+
+
+
+<div id="wrap">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="container">
+
+
+
+
+        <div id="contents">
+
+            <!--@contents-->
+        </div>
+    </div>
+
+
+</div>
+
+
+
+
+
+<div id="footer">
+    <div module="Layout_footer">
+        <img src=/web/upload/ga09/copy.gif border="0" usemap="#copy"><map name="copy">
+        <area shape="rect" coords="504, 236, 561, 255" href="/shopinfo/company.html" onfocus='this.blur()'>
+        <area shape="rect" coords="565, 236, 638, 256" href="/member/agreement.html" onfocus='this.blur()'>
+        <area shape="rect" coords="640, 236, 729, 256" href="/member/privacy.html" onfocus='this.blur()'>
+        <area shape="rect" coords="735, 235, 774, 256" href="/shopinfo/guide.html" onfocus='this.blur()'>
+    </map>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<div id="progressPaybar" style="display:none;">
+    <!-- 배경 -->
+    <div id="progressPaybarBackground" class="layerProgress"></div>
+    <!-- 진행바 -->
+    <div id="progressPaybarView">
+        <div class="box">
+            <p class="graph">
+                <span><img src="http://img.cafe24.com/images/ec_hosting/popup/layer_guide/txt_prog_001.gif" alt="현재 결제가 진행중입니다." /></span>
+                <span><img src="http://img.cafe24.com/images/ec_hosting/popup/layer_guide/img_loading_bar.gif" alt="" /></span>
+            </p>
+            <p class="txt">
+                본 결체 창은 결제완료 후 자동으로 닫히며,결제 진행 중에 본 결제 창을 닫으시면<br />
+                주문이 되지 않으니 결제 완료 될 때 까지 닫지 마시기 바랍니다.
+            </p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

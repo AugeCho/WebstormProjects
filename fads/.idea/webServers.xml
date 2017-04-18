@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="1998f71f-8bb1-430f-aecd-ae3fa4669181" name="cafe24(fads)" url="http://mmauge.cafe24.com/fads">
+        <fileTransfer host="mmauge.cafe24.com" port="22" rootFolder="/root/fads" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

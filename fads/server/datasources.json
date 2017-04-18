@@ -1,0 +1,7 @@
+{
+  "fdas_dev": {
+    "database": "fdas_dev",
+    "name": "mongodb",
+    "connector": "mongodb"
+  }
+}
